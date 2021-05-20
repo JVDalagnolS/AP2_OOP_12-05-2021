@@ -70,7 +70,7 @@
         android:layout_marginEnd="32dp"
         android:backgroundTint="#2979FF"
         android:onClick="calcularCombustivel"
-        android:text="CALCULAR PREÇO"
+        android:text="@string/calcular_preco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textAlcoolLayout" />
@@ -83,7 +83,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:gravity="center_horizontal"
-        android:text="Resultado"
+        android:text="@string/resultado"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,10 +96,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:gravity="center_horizontal"
-        android:text="Desenvolvido por João Vitor D. e João Lucas"
+        android:text="@string/by"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

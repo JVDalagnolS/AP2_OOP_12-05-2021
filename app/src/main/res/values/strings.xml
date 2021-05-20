@@ -3,4 +3,10 @@
     <string name="hintGasolina">Preço da Gasolina. EX: R$6,00</string>
     <string name="hintAlcool">Preço do Alcool. EX: R$4,60</string>
     <string name="title">Gasolina ou Álcool</string>
+    <string name="calcular_preco">CALCULAR PREÇO</string>
+    <string name="resultado">Resultado</string>
+    <string name="by">Desenvolvido por João Vitor D. e João Lucas</string>
+    <string name="useGasolina">Recomendamos utilizar gasolina.</string>
+    <string name="useAlcool">Recomendamos utilizar Álcool.</string>
+    <string name="preencha">É nescessário preencher todos os campos antes de calcular!</string>
 </resources>

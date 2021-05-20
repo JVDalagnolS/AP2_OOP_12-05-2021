@@ -4,4 +4,10 @@
     <string name="hintGasolina">Gasoline Price. EX: $ 2.30</string>
     <string name="hintAlcool">E85 Price. EX: $ 2.65</string>
     <string name="title">Gasoline or E85</string>
+    <string name="calcular_preco">CALCULATE PRICE</string>
+    <string name="resultado">Result</string>
+    <string name="by">Developed by João Vitor D. e João Lucas</string>
+    <string name="useGasolina">We recommend using gasoline.</string>
+    <string name="useAlcool">We recommend using E85.</string>
+    <string name="preencha">It is necessary to fill in all the fields before calculating!</string>
 </resources>

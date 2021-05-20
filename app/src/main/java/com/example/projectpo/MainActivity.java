@@ -11,21 +11,21 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextInputEditText editAlcool;
-    private TextInputEditText editGasolina;
-    private TextView textResultado;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        editAlcool = findViewById(R.id.editAlcool);
-        editGasolina = findViewById(R.id.editGasolina);
-        textResultado = findViewById(R.id.textResultado);
     }
 
     public void calcularCombustivel (View view){
+        TextInputEditText editAlcool = findViewById(R.id.editAlcool);
+        TextInputEditText editGasolina = findViewById(R.id.editGasolina);
+        TextView textResultado = findViewById(R.id.textResultado);
+
+        String useGasolina = getString(R.string.useGasolina);
+        String useAlcool = getString(R.string.useAlcool);
+        String preencha = getString(R.string.preencha);
+
         String valorAlcool = editAlcool.getText().toString();
         String valorGasolina = editGasolina.getText().toString();
 
@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
             Double resultadoCampos = precoAlcool/precoGasolina;
 
             if (resultadoCampos >= 0.7){
-                textResultado.setText("Recomendamos utilizar gasolina.");
+                textResultado.setText(useGasolina);
             }else{
-                textResultado.setText("Recomendamos utilizar álcool.");
+                textResultado.setText(useAlcool);
             }
         }else{
-            textResultado.setText("É nescessário preencher todos os campos antes de calcular!");
+            textResultado.setText(preencha);
         }
     }
 
