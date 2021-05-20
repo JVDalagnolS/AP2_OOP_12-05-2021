@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Calculator</string>
+    <string name="hintGasolina">Gasoline Price. EX: $ 2.30</string>
+    <string name="hintAlcool">E85 Price. EX: $ 2.65</string>
+    <string name="title">Gasoline or E85</string>
+</resources>
